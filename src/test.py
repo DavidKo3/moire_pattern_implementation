@@ -20,6 +20,7 @@ root = tk.Tk()
 # create a canvas to draw on
 cv = tk.Canvas(root, width=640, height=480, bg='white')
 cv.grid()
+
 # draw a series of close spaced circles to create a moire pattern
 for k in range(1, 320, 2):
     cv.create_oval(get_square(k, k, k), outline='red')
