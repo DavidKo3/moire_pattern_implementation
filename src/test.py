@@ -15,6 +15,7 @@ def get_square(x, y, radius):
     x2 = x + radius
     y2 = y + radius
     return x1, y1, x2, y2
+
 # create the basic window, let's call it 'root'
 root = tk.Tk()
 # create a canvas to draw on
